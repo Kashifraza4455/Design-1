@@ -1,0 +1,149 @@
+body{
+    margin: 20px auto;
+    background-color: rgb(140, 93, 226);
+}     
+h1{
+    background-color: black;
+    color: antiquewhite;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+}
+h1:hover{
+    background-color: black;
+    color: rgb(233, 171, 56);
+}
+#main{
+    border: 3px solid black;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(128, 204, 66);
+}
+
+.link{
+    /* display: inline-block; */
+    padding-top: 15px;
+    padding-left: 15px;
+    color: antiquewhite;
+}
+.link a{
+    text-decoration: none;
+    font-size: 25px;
+
+}
+.links{        
+    position: relative;
+    float: right;
+    /* padding-top:5px; */
+    bottom: 30px;
+    padding-right: 10px;
+    margin-right: 20px;
+    color: antiquewhite;
+
+    
+}
+.links a{
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 20px;
+    
+    
+}
+.abc{
+ 
+    height: 70px;
+    width: 400px;
+    margin:  20px auto;
+}
+#box{
+    border: 3px solid black;
+    width: 400px;
+    height: 650px;
+    float: left;
+    background-color: violet;
+    margin-top: 30px;
+    margin-left: 50px;    
+    
+}
+#imgs{
+    border: 3px solid black;
+    position: relative;     
+    height: 650px;
+    width: 1100px;
+    float: right;
+    background-color: violet;
+    right: 30px;
+    margin-top: 30px;
+    bottom: 18px;
+}
+.pic4{
+    position: relative;
+    height: 200px;
+    width: 95%;
+    padding-left: 20px;
+    top: 10px;
+}
+.pic5{
+    height: 220px;
+    width: 40%;
+    margin-top: 220px;
+    display: inline-block;
+    padding-left: 20px;
+    
+}
+.no{
+   
+    position: relative;
+    height: 225px;
+    width: 50%;
+    float:  right;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    /* overflow-y: scroll; */
+    background-color: tomato;
+    color:whitesmoke;
+    bottom: 240px;
+    top: 220px;
+    right: 30px;
+    /* left: 40px; */
+    /* padding-left: -100px; */
+    
+}
+#p1{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+#p2{
+    height:200%;
+    width: 100%;
+    box-sizing: border-box;
+}
+#p3{
+    position: relative;
+    height:200%;
+    width: 90%;
+    box-sizing: border-box;
+    left: 25px;
+}
+#p4{
+    position: relative;
+    height:400%;
+    width: 90%;
+    box-sizing: border-box;
+    padding-top: 60px;
+    left: 25px;
+}
+#p5{
+    position: relative;
+    height:620%;
+    width: 90%;
+    box-sizing: border-box;
+    padding-top: 200px;
+    left: 25px;
+}
+
+
